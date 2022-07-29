@@ -1,0 +1,59 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<style>
+body
+{
+ background-image: url("../images/travelmain.jpg");
+ background-size: cover;
+}
+
+#main1
+{
+height:90%;
+width:30%;
+margin-top:25px;
+margin-left:470px;
+}
+
+label
+{
+font-size:14px;
+}
+
+input
+{
+height:27px;
+font-size:12px;
+}
+
+::placeholder
+{
+font-size:12px;
+}
+
+</style>
+<body>
+
+<div class="card" id="main1">
+<img src="../images/logo2.png" style="width:408px;height:180px;">
+  <div class="card-body">
+    <form class="form-group" action="func.php" method="POST">
+     <label>Username</label><br>
+     <input type="text" name="name" class="form-control" placeholder="Enter Username"><br>
+     <label>Password</label><br>
+     <input type="password" name="pass" class="form-control" placeholder="Enter Password"><br>
+     <label>Email</label><br>
+     <input type="email" name="email" class="form-control" placeholder="Enter Email"><br>
+     <label>Contact</label><br>
+     <input type="text" name="contact" class="form-control" placeholder="Enter Contact"><br>
+     <input type="submit" name="sub" class="btn btn-danger" id="sub" style="font-size:14px;height:35px;" data-toggle="modal" data-target="#exampleModal"><br>
+     <div style="margin-left:100px;margin-top:-25px;">Already Registered?<a href="login.html" style="color:red;">Login</a></div>
+    </form>
+  </div>
+</div>
+
+
+</body>
+</html>

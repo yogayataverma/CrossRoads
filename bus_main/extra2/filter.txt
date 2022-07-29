@@ -1,0 +1,6 @@
+fare
+type
+departure time
+arrival
+dperature place
+arrival place

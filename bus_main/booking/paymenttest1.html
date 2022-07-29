@@ -1,0 +1,20 @@
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \-X POST 
+https://api.razorpay.com/v1/invoices/ \-H 'Content-type: application/json' \-d '
+{  "type":"link", 
+ "amount":6899, 
+ "receipt":"#9821", 
+ "description":"Cloud Computing", 
+ "expire_by":1579257270, 
+ "partial_payment":1, 
+ "customer":{   
+ "name":"Gaurav Kumar",  
+  "contact":"9999999998",  
+  "email":"gaurav.kumar@example.com" 
+ },  #customization parameters start below# 
+ "options":{    "checkout":{      "method":{        "netbanking":1,        "card":1,        "upi":0,        "wallet":0      }    }  }}'
+
+
+<form>
+<script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HGyLjROny20iMc" async> 
+</script> 
+</form>

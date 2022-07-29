@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+#test-amount
+{
+border:2px solid blue;
+display:none;
+}
+</style>
+</head>
+
+<body>
+<input type="number" id="amu1">
+
+<div id="test-amount">
+<h1>Value:</h1>
+<div id="amount"></div>
+</div>
+<button id="pay">Pay</button>
+
+<script>
+document.getElementById('amu1').addEventListener('change'(event)=>{
+let val=event.target.value;
+localStorage.amtVal=val;
+})
+
+document.getElementById('pay').addEventListener('click',()=>{
+document.getElementById('test-amount').style.display="block";
+document.getElementById('amount').innerHTML=localStorage.getItem("amtVal");
+})
+</script>
+
+</body>
+
+</html>

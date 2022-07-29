@@ -1,0 +1,79 @@
+<img src="../images/YoloBus.jpg" style="width:1350px;height:700px;margin-top:50px;" >
+
+
+
+
+
+
+
+<div class="border" style="margin-top:100px;height:210px;background-color:black;">
+<div style="margin-top:50px;margin-left:100px;">
+<a href="../booking/buses2.php" class="text-white" id="down_links" >Book</a><br>
+<a href="../offers/offers.php" style="color:white;" id="down_links" >Offers</a><br>
+<a href="../routes/routes.php" class="text-white" id="down_links" >Routes</a><br>
+<a href="https://www.google.com/maps/" style="color:white;" id="down_links" >Maps</a><br>
+
+</div>
+
+<div style="margin-top:-150px;margin-left:300px;">
+<a href="../destination/chandigarh.php" class="text-white" id="down_links" >Chandigarh</label><br>
+<a href="../destination/bathinda.php" style="color:white;" id="down_links" >Bathinda</a><br>
+<a href="../destination/kolkata.php" style="color:white;" id="down_links" >Kolkata</a><br>
+<a href="../destination/bangalore.php" style="color:white;" id="down_links" >Banglore</a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+</div>
+
+<div style="margin-top:-290px;margin-left:500px;">
+<a href="../help/help.php" class="text-white" id="down_links" >Help</label><br>
+<a href="" style="color:white;" id="down_links" >Tickets</a><br>
+<a href="#" style="color:white;" id="down_links" >Routes</a><br>
+<a href="#" style="color:white;" id="down_links" >Maps</a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+</div>
+
+<div style="margin-top:-180px;margin-left:700px;">
+<label class="text-white" id="down_links" >Book</label><br>
+<a href="#" style="color:white;" id="down_links" >Tickets</a><br>
+<a href="#" style="color:white;" id="down_links" >Routes</a><br>
+<a href="#" style="color:white;" id="down_links" >Maps</a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+</div>
+
+<div style="margin-top:-180px;margin-left:900px;">
+<label class="text-white" id="down_links" >Book</label><br>
+<a href="#" style="color:white;" id="down_links" >Tickets</a><br>
+<a href="#" style="color:white;" id="down_links" >Routes</a><br>
+<a href="#" style="color:white;" id="down_links">Maps</a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+<a href="#"></a><br>
+</div>
+
+
+
+
+
+
+
+
+
+<div>
+
+</div>
+
+<div>
+</div>
+
+<div>
+</div>
